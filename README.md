@@ -1,4 +1,4 @@
 modulustoolkit
 ==============
 
-developed modulustoolkit for Geoscience australia
+Developed modulustoolkit for Geoscience australia, a seismic catalog analysis tool/plugin for qgis. Available for public use. 
