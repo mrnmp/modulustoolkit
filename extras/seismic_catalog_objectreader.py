@@ -10,7 +10,7 @@ import sys
 def read_dict(filename):
 	"""
 	reads seismic catalog object extracted by isccut.py
-	generates space seperated fileds
+	generates space seperated fields
 	"""
 	pkl_file = open(filename,'rb')
 	event_dict = pickle.load(pkl_file)
