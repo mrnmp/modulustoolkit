@@ -2,11 +2,11 @@ modulustoolkit
 ==============
 copyright            : (C) 2012 by nimal m
 
-Developed modulustoolkit for Geoscience australia, a seismic catalog analysis tool/plugin for qgis. Available for public use.
+Developed modulustoolkit for Geoscience australia, a seismic catalog analysis plugin for qgis. Available for public use.
 
 User Guide:
 
-  	-- Use download ISC catalog from http://www.isc.ac.uk/
+  	-- Download ISC catalog from http://www.isc.ac.uk/
 
 	-- Use scripts in extras directory to extract modulustoolkit formatted input file
 
