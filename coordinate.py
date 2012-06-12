@@ -8,7 +8,7 @@ class Coordinate():
         self.x = None
         self.y = None
         self.depth = None        
-        self.agentcy = None
+        self.agency = None
         self.eventid = None
         self.date = None
         self.time = None
@@ -47,7 +47,7 @@ class Coordinate():
     def getDepth(self):
         return self.depth 
     
-    def getAgentcy(self):
+    def getAgency(self):
         return self.agentcy
         
     def getEventID(self):
@@ -112,7 +112,7 @@ class Coordinate():
     def setDepth(self, depth):
         self.depth = depth   
         
-    def setAgentcy(self,  agentcy):
+    def setAgency(self,  agentcy):
         self.agentcy = agentcy
     
     def setEventID(self,  eventid):

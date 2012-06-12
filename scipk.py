@@ -32,7 +32,7 @@ class SciPk(QObject):
                 coord = Coordinate(line[0:9])
                 coord.setDate(self.data_val)
                 coord.setTime(line[22:33])
-                coord.setagency(self.agency_val)
+                coord.setAgency(self.agency_val)
                 coord.setX(line[41:50])
                 coord.setY(line[51:61])
                 coord.setDepth(line[63:68])
@@ -89,7 +89,7 @@ class SciPk(QObject):
                   
         for coord in datalist:
             mag = eval(self.cmdstr)
-            if ( not mag.isspace() and coord.getagency() == agencyName):  
+            if ( not mag.isspace() and coord.getAgency() == agencyName):  
                 date_time = coord.getDate() + ":" + coord.getTime()  
                
                 try:
@@ -101,7 +101,7 @@ class SciPk(QObject):
                                                         2 : QVariant(float(coord.getY())),
                                                         3 : QVariant(mag),
                                                         4 : QVariant(str(coord.getDepth())),
-                                                        5 : QVariant(str(coord.getagency())),
+                                                        5 : QVariant(str(coord.getAgency())),
                                                         6 : QVariant(str(date_time)) })
                     features.append(feat)
                 except ValueError:

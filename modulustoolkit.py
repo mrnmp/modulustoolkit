@@ -143,7 +143,7 @@ class ModulusToolKit:
                     for data in self.datalist:
                         
                         self.magList = []
-                        self.agentcy = data.getAgentcy()
+                        self.agency = data.getAgency()
 
                         self.magList.append('Mw') if  not data.getMagMw().isspace() else None
                         self.magList.append('M')  if  not data.getMagM().isspace() else None
